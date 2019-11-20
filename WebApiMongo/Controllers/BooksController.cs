@@ -23,7 +23,7 @@ namespace WebApiMongo.Controllers
         public ActionResult<List<Book>> Get() => _bookService.Get();
 
         // GET
-        // https://localhost:44376/api/books?id=5bfd996f7b8e48dc15ff215d
+        // https://localhost:44376/api/books/5bfd996f7b8e48dc15ff215d
         [HttpGet("{id:length(24)}", Name = "GetName")]
         public ActionResult<Book> Get(string id)
         {
