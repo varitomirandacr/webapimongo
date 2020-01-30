@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebApiMongo.Models
 {
-    public class test
+    public class Income
     {
     }
 }

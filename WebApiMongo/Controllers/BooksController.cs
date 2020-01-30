@@ -14,6 +14,8 @@ namespace WebApiMongo.Controllers
 
         public BooksController(IBookService bookService)
         {
+            var controller = typeof(WeatherForecastController);
+            
             _bookService = bookService;
         }
 
